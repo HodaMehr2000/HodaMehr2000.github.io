@@ -1,0 +1,372 @@
+/*
+Template 2058 metallic slider 
+http://www.tooplate.com/view/2058-metallic-slider
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #666464;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+	line-height: 1.4em; 
+	background-color: #000; 
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-image: url(../images/tooplate_main.jpg)
+}
+
+a, a:link, a:visited { 
+	color: #e9e7e0; 
+	font-weight: normal; 
+	text-decoration: none; 
+	font-style: italic; 
+}
+
+a:hover { 
+	text-decoration: underline; 
+}
+
+a.more { 
+	display: inline-block; 
+	width: 90px; 
+	height: 13px; 
+	background: url(../images/tooplate_read_more.png) no-repeat; 
+}
+
+p { 
+	margin: 0 0 20px 0; 
+	padding: 0; 
+}
+
+img { 
+	border: #fff 4px solid; 
+}
+
+blockquote { 
+	font-style: italic; 
+	margin: 0 0 0 10px;
+}
+
+cite { 
+	font-weight: bold; 
+	color:#e9e7e0; 
+}
+
+cite a, cite a:link, cite a:visited  { 
+	font-size: 12px; 
+	text-decoration: none; 
+	font-style: normal; 
+}
+
+cite span { 
+	font-weight: 400; 
+	color: #666464; 
+}
+
+.image_fl { 
+	float: left; 
+	margin: 3px 20px 5px 0; 
+}
+
+.image_fr { 
+	float: right; 
+	margin: 3px 0 5px 20px; 
+}
+
+h1, h2, h3, h4, h5, h6 { color: #e9e7e0; font-weight: normal; font-family: Georgia, "Times New Roman", Times, serif }
+h1 { font-size: 48px; margin: 0 0 30px; padding: 5px 0 }
+h2 { font-size: 28px; margin: 0 0 25px; padding: 3px 0 }
+h3 { font-size: 18px; margin: 0 0 15px; padding: 0; }
+h4 { font-size: 16px; margin: 0 0 10px; padding: 0; }
+h5 { font-size: 14px; margin: 0 0 10px; padding: 0;  }
+h6 { font-size: 10px; margin: 0 0 5px; padding: 0; }
+
+.cleaner { clear: both }
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h30 { height: 30px }
+.h40 { height: 40px }
+.h50 { height: 50px }
+
+.float_l { float: left }
+.float_r { float: right }
+
+#tooplate_main { 
+	width: 968px;
+	margin: 0 auto;
+	padding: 100px 0 200px;
+}
+
+#site_title { 
+	width: 220px; 
+	height: 51px; 
+	margin: 0 auto 20px; 
+}
+
+#site_title h1 { 
+	margin: 0; 
+	padding: 0; 
+}
+
+#site_title h1 a { 
+	display: block; 
+	font-size: 12px; 
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	width: 275px; 
+	height: 51px; 
+	color: #acacac; 
+	text-indent: -10000px; 
+	background: url(../images/tooplate_logo.png) no-repeat center left; 
+}
+
+#tooplate_content {
+	width: 938px;
+	height: 478px;
+	padding: 15px;
+	background: url(../images/tooplate_content.png) no-repeat
+}
+
+.kwicks {
+	list-style: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.kwicks li{
+	display: block;
+	overflow: hidden;
+	padding: 0;
+	cursor: pointer;
+	background: url(../images/slider_bg.png) no-repeat left
+}
+
+#tooplate_content li {
+	float: left;
+	position: relative;
+	width: 188px;
+	height: 478px;
+}
+
+.kwicks li.active {
+	background: url(../images/slider_bg_hover.png) no-repeat left
+}
+
+.kwicks li span.header {
+	position: absolute;
+	bottom: 15px;
+	left: 10px;
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+.kwicks li span.slideno {
+	position: absolute;
+	top: 15px;
+	left: 10px;
+	width: 36px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+#tooplate_content #home { 
+}
+#tooplate_content #home.active { 
+}
+#tooplate_content #about {
+}
+#tooplate_content #about.active {
+}
+#tooplate_content #social {
+}
+#tooplate_content #social.active {
+}
+#tooplate_content #portfolio { 
+}
+#tooplate_content #portfolio.active { 
+}
+#tooplate_content #contact {
+}
+#tooplate_content #contact.active {
+	margin-right: 0px;	
+}
+
+#tooplate_content #home span.slideno {
+	background-image: url(../images/one.png)
+}
+
+#tooplate_content #about span.slideno {
+	background-image: url(../images/two.png)	
+}
+
+#tooplate_content #social span.slideno {
+	background-image: url(../images/three.png)	
+}
+
+#tooplate_content #portfolio span.slideno { 
+	background-image: url(../images/four.png)	
+}
+
+#tooplate_content #contact span.slideno {
+	background-image: url(../images/five.png)	
+}
+
+#tooplate_content #home span.header {
+	background-image: url(../images/home.png)
+}
+
+#tooplate_content #about span.header {
+	background-image: url(../images/about.png)	
+}
+
+#tooplate_content #social span.header {
+	background-image: url(../images/social.png)	
+}
+
+#tooplate_content #portfolio span.header { 
+	background-image: url(../images/portfolio.png)	
+}
+
+#tooplate_content #contact span.header {
+	background-image: url(../images/contact.png)	
+}
+
+#tooplate_content li .inner {
+	width: 570px; 
+	padding: 40px 40px 40px 100px; 
+	overflow: hidden;
+}
+
+#tooplate_content li ul { 
+	margin: 0 0 0 10px; 
+	padding: 0; 
+	list-style: decimal-leading-zero; 
+}
+
+#tooplate_content li ul li {
+	width: auto;
+	height: auto;
+	float: none;
+	margin: 0;
+	padding: 0 0 5px 18px;
+	background: url(../images/tooplate_list.png) scroll 0px 7px no-repeat
+}
+
+#tooplate_content li ul.social_links {
+	margin-top: 40px
+}
+
+#tooplate_content li ul.social_links li {
+	width: auto;
+	height: auto;
+	float: left;
+	width: 180px;
+	margin: 0 0 40px;
+	padding: 0;
+	background: none;
+}
+
+#tooplate_content li ul.social_links li a {
+	display: block;
+	height: 33px;
+	padding: 15px 0 0 60px;
+	font-size: 14px;
+	color: #fff;
+	background-position: left;
+	background-repeat: no-repeat
+}
+
+#tooplate_content li #gallery {
+	margin-top: 40px
+}
+
+#tooplate_content li #gallery li {
+		width: auto;
+		height: auto;
+		float: left;
+		width: 125px;
+		height: 125px;
+		margin: 0 5px 5px 0;
+		padding: 0;
+		background: none;
+}
+
+#tooplate_content li #gallery li a {
+	display: block;
+}
+
+#tooplate_content li ul.social_links li a.facebook {
+	background-image: url(../images/facebook.png) 
+}
+
+#tooplate_content li ul.social_links li a.flickr {
+	background-image: url(../images/flickr.png)
+}
+
+#tooplate_content li ul.social_links li a.linkedin {
+	background-image: url(../images/linkedin.png)
+}
+
+#tooplate_content li ul.social_links li a.twitter {
+	background-image: url(../images/twitter.png) 
+}
+
+#tooplate_content li ul.social_links li a.yahoo {
+	background-image: url(../images/yahoo.png)
+}
+
+#tooplate_content li ul.social_links li a.youtube {
+	background-image: url(../images/youtube.png)
+}
+
+#contact_form { 
+	padding: 0; 
+	width: 410px; 
+}
+
+#contact_form form { 
+	margin: 0px; 
+	padding: 0px; 
+}
+
+#contact_form form .input_field { 
+	width: 300px; 
+	padding: 5px; 
+	color: #ccc; 
+	border: 1px solid #444444;  
+	background: #262626; 
+	margin-bottom: 10px; 
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size: 11px;
+}
+
+#contact_form form label { 
+	display: block;
+	font-size: 11px; 
+}
+
+#contact_form form textarea { 
+	clear: both; 
+	width: 398px; 
+	height: 100px; 
+	padding: 5px; 
+	color: #ccc;
+	border: 1px solid #444444;  
+	background: #262626;  
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size: 11px;
+}
+
+#contact_form form .submit_btn { 
+	font-size: 12px; 
+	background: #191919; 
+	color: #ccc; 
+	cursor:pointer; 
+	border: 1px solid #444444; 
+	padding: 5px 14px; 
+}
+
+.col_half { width: 270px }
